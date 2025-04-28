@@ -73,7 +73,7 @@ Built with **React**, **TailwindCSS**, **Flask**, **Gemini LLM**, and integrated
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js, TailwindCSS
+- **Frontend:** React.js+Vite, TailwindCSS
 - **Backend:** Flask (Python)
 - **Large Language Model:** Gemini API
 - **APIs Integrated:**
@@ -99,7 +99,7 @@ Built with **React**, **TailwindCSS**, **Flask**, **Gemini LLM**, and integrated
     ```bash
     cd frontend
     npm install
-    npm start
+    npm run dev
     ```
 
 3. **Backend Setup:**
