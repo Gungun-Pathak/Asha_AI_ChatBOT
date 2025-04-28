@@ -1,95 +1,142 @@
-🌸 Women-Centered RAG-Based Chatbot
-A Responsible AI chatbot designed for empowering women through inclusive, bias-free, and accessible career guidance and tech updates.
-Built with React, TailwindCSS, Flask, Gemini LLM, and integrated with multiple APIs for rich real-time interactions.
+# 🌸 Women-Centered RAG-Based Chatbot
 
-✨ Features
-🎯 Sentiment Analysis & Uplifting Responses
+A Responsible AI chatbot designed for **empowering women** through **inclusive**, **bias-free**, and **accessible** career guidance and tech updates.  
+Built with **React**, **TailwindCSS**, **Flask**, **Gemini LLM**, and integrated with multiple APIs for rich real-time interactions.
 
-Detects user emotions and generates motivating, women-centric encouragements.
+---
 
-📄 Resume Review and Career Guidance
+## ✨ Features
 
-Reviews resumes, highlights improvements, detects skill gaps, suggests courses, and offers a personalized career roadmap.
+- **🎯 Sentiment Analysis & Uplifting Responses**
+  - Detects user emotions and generates motivating, women-centric encouragements.
 
-⚖️ Bias Detection and Mitigation
+- **📄 Resume Review and Career Guidance**
+  - Reviews resumes and provides:
+    - Suggested improvements
+    - Detection of skill gaps
+    - Recommended courses
+    - Personalized career roadmap
+    - Constructive feedback on shortcomings
 
-Dual-method analysis:
+- **⚖️ Bias Detection and Mitigation**
+  - Dual-method bias detection:
+    - NLP-based bias analysis
+    - LLM-based bias analysis
+  - Ensures fair and unbiased communication.
 
-NLP-based Bias Detection
+- **📞 Twilio Voice Interaction**
+  - Allows users to interact via **phone call**.
+  - Supports **voice-based queries** and provides computer-generated answers.
+  - Especially beneficial for **visually impaired** users.
 
-LLM-based Bias Analysis
+- **👤 User Authentication and Profile Management**
+  - Users can:
+    - Sign up
+    - Log in
+    - Update their profile directly through the chatbot.
 
-Ensures fair, unbiased feedback and interactions.
+- **❓ FAQs Support**
+  - Answers frequently asked questions related to:
+    - JobsForHer Foundation
+    - Job opportunities
+    - Tech events
+    - Mentorship programs
+    - General career-related queries
 
-📞 Twilio Voice Interaction
+- **🧠 Context-Aware Conversations**
+  - Maintains conversation context and chat history for natural, flowing interactions.
 
-Allows users to call and interact with the chatbot via voice.
+- **🛡️ Error Handling and Feedback System**
+  - Handles errors gracefully.
+  - Provides fallback messages and collects feedback for future improvements.
 
-Especially beneficial for visually impaired users or those preferring audio interaction.
+- **🌍 Promote Inclusivity and Empowerment**
+  - Ensures all responses promote:
+    - Women empowerment
+    - Factual correctness
+    - Positive reinforcement
 
-👤 User Authentication and Profile Management
+- **📜 Global AI Ethics Compliance**
+  - Adheres to global AI ethics standards, ensuring:
+    - Responsible AI usage
+    - Privacy protection
+    - Fairness and transparency
 
-Users can sign up, log in, and update their profiles directly through the chatbot.
+- **📊 Analytics and Continuous Learning**
+  - Tracks:
+    - User engagement metrics
+    - Response accuracy
+    - Bias mitigation effectiveness
+  - Implements continuous learning to refine AI responses based on real-world interactions.
 
-❓ FAQs Support
+---
 
-Answers common queries regarding:
+## 🛠️ Tech Stack
 
-Job opportunities (e.g., JobsForHer Foundation)
+- **Frontend:** React.js, TailwindCSS
+- **Backend:** Flask (Python)
+- **Large Language Model:** Gemini API
+- **APIs Integrated:**
+  - Public Jobs API
+  - Tech Events API
+  - Mentorship Events API
+  - Tech News API
+  - Twilio API (for voice-based interaction)
+- **Authentication:** JWT-based user authentication
 
-Tech events
+---
 
-Mentorship programs
+## 🚀 Setup Instructions
 
-General career advice
+1. **Clone the Repository:**
 
-🧠 Context-Aware Conversations
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    ```
 
-Maintains conversation history for a more human-like and continuous dialogue.
+2. **Frontend Setup:**
 
-🛡️ Error Handling and Feedback System
+    ```bash
+    cd frontend
+    npm install
+    npm start
+    ```
 
-Smart error detection and fallback handling.
+3. **Backend Setup:**
 
-Collects user feedback to drive continuous improvement.
+    ```bash
+    cd backend
+    pip install -r requirements.txt
+    python app.py
+    ```
 
-🌍 Promote Inclusivity and Empowerment
+4. **Environment Variables:**
+    - Create `.env` files for:
+      - API keys (Gemini, Twilio, etc.)
+      - Database connection URIs
+      - Authentication secrets
 
-Every response is crafted to promote women empowerment, factual correctness, and positive support.
+5. **Run the App:**
+    - Frontend available at: `http://localhost:3000`
+    - Backend API available at: `http://localhost:5000`
 
-🛡️ Global AI Ethics Compliance
+---
 
-Adheres to responsible AI guidelines, focusing on privacy, fairness, and trustworthiness.
+## 🤝 Contribution
 
-📊 Analytics and Continuous Learning
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you would like to change.
 
-Tracks:
+---
 
-User engagement
 
-Response accuracy
 
-Bias mitigation success
+## 🌟 Acknowledgements
 
-Implements continuous learning loops to improve over time based on real-world interactions.
+- Inspired by initiatives to **empower women** in tech and **bridge gender gaps** in professional environments.
+- Thanks to all open APIs, open-source libraries, and the community!
 
-🛠️ Tech Stack
-Frontend: React.js, TailwindCSS
+---
 
-Backend: Flask (Python)
+# 🚀 Let’s build an empowering and inclusive future together!
 
-Large Language Model: Gemini API
-
-APIs Integrated:
-
-Public Jobs API
-
-Tech Events API
-
-Mentorship Events API
-
-Tech News API
-
-Twilio API (for voice-based interactions)
-
-Authentication: JWT-based user management
